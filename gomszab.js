@@ -2,6 +2,11 @@
  * @typedef {{question: string, answer1: string, answer2: string, answer3: string, answer4: string, rightAnswer: string}} QuestionType
  * @typedef {{id: string, label: string, name: string}} FormFieldType
  * @typedef {{question: string, answer: string}} TrueFalseQuestionType
+ * @callback ActivateCallback
+ * @returns {void}
+ * @callback RenderCallback
+ * @param {Question[]} list
+ * @returns {void}
  */
 
 /**
